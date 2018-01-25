@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/map_icon">
+        <file>BMap/icon/Down.png</file>
+        <file>BMap/icon/Left.png</file>
+        <file>BMap/icon/locate.png</file>
+        <file>BMap/icon/Right.png</file>
+        <file>BMap/icon/Up.png</file>
+        <file>BMap/icon/v2.png</file>
+        <file>BMap/icon/zoomin.png</file>
+        <file>BMap/icon/zoomout.png</file>
+        <file>BMap/icon/press.png</file>
+    </qresource>
+    <qresource prefix="/ICON">
+        <file>Icon/account.png</file>
+        <file>Icon/accounterror.png</file>
+        <file>Icon/close.png</file>
+        <file>Icon/login0.png</file>
+        <file>Icon/login1.png</file>
+        <file>Icon/mobike0.jpg</file>
+        <file>Icon/mobike1.jpg</file>
+        <file>Icon/mobike2.jpg</file>
+        <file>Icon/mobike3.jpg</file>
+        <file>Icon/mobike4.jpg</file>
+        <file>Icon/mobike5.jpg</file>
+        <file>Icon/mobike6.jpg</file>
+        <file>Icon/password.png</file>
+        <file>Icon/regist0.png</file>
+        <file>Icon/register1.png</file>
+        <file>Icon/registerok.png</file>
+        <file>Icon/saoma.png</file>
+        <file>Icon/saoma1.png</file>
+        <file>Icon/saoma2.png</file>
+        <file>Icon/saoma3.png</file>
+        <file>Icon/sign.ico</file>
+        <file>Icon/signerror.png</file>
+        <file>Icon/signok.png</file>
+        <file>Icon/welcome2.jpg</file>
+        <file>Icon/xxx.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/Down.png</file>
+        <file>icon/Left.png</file>
+        <file>icon/Right.png</file>
+        <file>icon/Up.png</file>
+        <file>icon/zoomin.png</file>
+        <file>icon/zoomout.png</file>
+        <file>icon/locate.png</file>
+        <file>icon/v2.png</file>
+    </qresource>
+</RCC>

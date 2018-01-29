@@ -9,6 +9,7 @@
 #include <QImage>
 #include <QQuickItem>
 #include <QHBoxLayout>
+#include <QMessageBox>
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)

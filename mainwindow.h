@@ -47,7 +47,15 @@ public slots:
     void get_bike_num(QString bikenum)
     {
         //qDebug()<<"hhhhhhhhhhhhhhhhhhh2";
+        if(dia->signok == false)
+        {
+            QMessageBox::about(this,"something","请登录");
+            saoma->close();
+            saoma->deleteLater();
+            return;
+        }
         tcp_socket->set_msg_data("unlock#" + bikenum);
+        QMessageBox::about(this,"something","扫码成功");
         saoma->close();
         saoma->deleteLater();
     }
@@ -59,11 +67,7 @@ public slots:
     }
     void sao_yi_sao()
     {
-        if(dia->signok == false)
-        {
-            mysign();
-            return;
-        }
+
         saoma = new Widget(this);
         saoma->show();
         saoma->setFixedSize(this->size());
